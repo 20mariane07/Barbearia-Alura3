@@ -106,3 +106,19 @@ form input, form textarea {
 .checkbox {
     margin: 20px 0;
 }
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: darkgreen;
+    transform: scale(1.2);
+}
